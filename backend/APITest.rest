@@ -1,0 +1,50 @@
+# GET http://localhost:3000/customers
+# content-type: application/json
+
+# GET http://localhost:3000/customers/2
+# Content-Type: application/json
+
+# POST http://localhost:3000/customers
+# Content-Type: application/json
+
+# {
+#     "customer_name" : "f",
+#     "email" : "farid@gmail.com",
+#     "city" : "BSD"
+# }
+
+# PUT http://localhost:3000/customers/11
+# Content-Type: application/json
+
+# {
+#     "customer_name" : "Fathan jawir",
+#     "email" : "farid@email",
+#     "city" : "BSD"
+# }
+
+# DELETE http://localhost:3000/customers/15
+# Content-Type: application/json
+
+# GET http://localhost:3000/orders
+# content-type: application/json
+
+# GET http://localhost:3000/orders/11
+# content-type: application/json
+
+# POST http://localhost:3000/orders
+# content-type: application/json
+
+# {
+#     "customer_id" : 8,
+#     "total_amount" : 1
+# }
+
+# PUT http://localhost:3000/orders/11
+# Content-Type: application/json
+
+# {
+#     "total_amount" : 688
+# }
+
+# DELETE http://localhost:3000/orders/11
+# Content-Type: application/json
